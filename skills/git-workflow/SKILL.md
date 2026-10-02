@@ -135,6 +135,7 @@ Then propose `git push -u origin <branch>`. Run it only when the user explicitly
 
 ### 6. Pull request
 
+- Check auth first: `gh auth status`. If it fails, ask the user to run `gh auth login` once in a terminal, then retry. Never attempt to authenticate non-interactively.
 - Title: reuse the commit subject when the branch has a single commit, otherwise summarize the branch.
 - Body sections: Résumé, Motivation, Tests, in the same language as the commits. See `references/templates.md`.
 - Write the body to a file, show it, and get approval. To let the user edit it first:
