@@ -1,0 +1,21 @@
+{
+  "name": "git-workflow-skill",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pi skill for AI-drafted, human-reviewed Git work: branch names, commit messages, and GitHub pull requests",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "skill",
+    "git",
+    "workflow",
+    "commit",
+    "pull-request"
+  ],
+  "license": "MIT",
+  "pi": {
+    "skills": [
+      "./skills"
+    ]
+  }
+}
